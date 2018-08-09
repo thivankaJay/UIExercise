@@ -14,9 +14,8 @@ public class LoadDataProperties {
 
     public static Map<String,String> loadDataProperties() throws Exception {
 
-        String rootPath = Thread.currentThread().getContextClassLoader().getResource("").getPath();
         Map<String,String> propertyMap = new HashMap();
-        InputStream reader = new FileInputStream("C:\\Users\\Sysco\\Documents\\Projct\\FTR\\Automation\\sysco_JavaWebUIAutomation\\src\\main\\resources\\config.properties");
+        InputStream reader = new FileInputStream(System.getProperty("user.dir") +System.getProperty("user.dir") +"\\src\\main\\resources\\config.properties");
         Properties p = new Properties();
         p.load(reader);
 

@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8758a706-5e27-4a4a-973a-e18940420bec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/functions/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/functions/MyAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/functions/MyBundyAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/functions/MyCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/functions/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/functions/Welcome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/pages/MyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/pages/MyBundyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/pages/MyCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/pages/StartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/pages/WelcomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/utils/PageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sysco/webui/tests/WebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/webui/common/LoadDataProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/webui/common/LoadDataProperties.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +18,8 @@
       <file leaf-file-name="LoadDataProperties.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/webui/common/LoadDataProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="129" selection-start-line="18" selection-start-column="129" selection-end-line="18" selection-end-column="129" />
+            <state relative-caret-position="170">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/webui/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/webui/functions/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sysco/webui/tests/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/webui/common/LoadDataProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/webui/common/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/webui/utils/DriverSetUpUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sysco/webui/utils/TestBase.java" />
@@ -193,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/webui/pages/MyBundyAccountPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/sysco/webui/tests/WebTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/webui/common/LoadDataProperties.java" />
       </list>
     </option>
   </component>
@@ -203,7 +190,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="60" />
     <option name="y" value="-21" />
     <option name="width" value="1382" />
@@ -248,80 +235,7 @@
               <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_JavaWebUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webui" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_JavaWebUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_JavaWebUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="chrome_driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_JavaWebUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="chrome_driver" type="462c0819:PsiDirectoryNode" />
-              <item name="windows" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_JavaWebUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_JavaWebUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_JavaWebUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_JavaWebUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webui" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_JavaWebUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_JavaWebUIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webui" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -540,7 +454,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1099,8 +1013,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/webui/common/LoadDataProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="129" selection-start-line="18" selection-start-column="129" selection-end-line="18" selection-end-column="129" />
+        <state relative-caret-position="170">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
