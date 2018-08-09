@@ -8,8 +8,8 @@ import org.openqa.selenium.Capabilities;
  * Created by dasunh on 5/21/18.
  */
 public class MyCartPage extends PageBase {
-    private By txtPrice = By.xpath("(//*[@id=\"shopping-cart-table\"]//span[@class='cart-price']/span)[1]");
-    private By txtProductName = By.xpath("//*[@id=\"shopping-cart-table\"]//h2/a");
+    private By txtPrice = By.xpath("(//div[@id='shopping-cart-table']//span[@class='cart-price']/span)[1]");
+    private By txtProductName = By.xpath("//div[@id='shopping-cart-table']//h2/a");
     private By btnProceedCheckout = By.xpath("(//button[@title='Proceed to Checkout'])[1]");
     private By txtCheckoutFName = By.id("billing:firstname");
     private By txtCheckoutLName = By.id("billing:lastname");
@@ -18,10 +18,12 @@ public class MyCartPage extends PageBase {
     private By radBtnCreditCart = By.xpath("(//label[contains(text(),'Credit Card')])[1]");
 
     public String getPrice(){
+        syscoLabUI.sleepInMiliSeconds(5000);
         return syscoLabUI.getText(txtPrice);
     }
 
     public String getProductName(){
+        syscoLabUI.sleepInMiliSeconds(5000);
         return syscoLabUI.getText(txtProductName);
     }
 

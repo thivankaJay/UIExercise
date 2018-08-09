@@ -15,7 +15,7 @@ public class LoadDataProperties {
     public static Map<String,String> loadDataProperties() throws Exception {
 
         Map<String,String> propertyMap = new HashMap();
-        InputStream reader = new FileInputStream(System.getProperty("user.dir") +System.getProperty("user.dir") +"\\src\\main\\resources\\config.properties");
+        InputStream reader = new FileInputStream(System.getProperty("user.dir") +"\\src\\main\\resources\\config.properties");
         Properties p = new Properties();
         p.load(reader);
 
