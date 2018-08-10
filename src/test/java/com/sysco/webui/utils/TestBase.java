@@ -50,7 +50,7 @@ public class TestBase extends SyscoLabListener{
             syscoLabQCenter.setClassName(iTestContext.getClass().getName());
 
             if (Constants.UPDATE_DASHBOARD);
-//                SyscoLabReporting.generateJsonFile(SyscoLabListener.getResults(), syscoLabQCenter);
+                SyscoLabReporting.generateJsonFile(SyscoLabListener.getResults(), syscoLabQCenter);
 
         } catch (Exception e) {
             e.printStackTrace();
