@@ -16,6 +16,8 @@ import org.testng.asserts.SoftAssert;
 import java.io.IOException;
 import java.util.Map;
 
+import static org.openqa.selenium.remote.BrowserType.CHROME;
+
 @Listeners(SyscoLabListener.class)
 public class TestBase extends SyscoLabListener{
     private SyscoLabListener testListeners;
@@ -37,12 +39,11 @@ public class TestBase extends SyscoLabListener{
         dataMap = LoadDataProperties.loadDataProperties();
     }
 
-//    @AfterClass(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void cleanUp(ITestContext iTestContext) {
         try {
             syscoLabQCenter.setProjectName(Constants.TEST_PROJECT);
             syscoLabQCenter.setEnvironment(Constants.TEST_ENV);
-
             syscoLabQCenter.setRelease(Constants.TEST_RELEASE);
             syscoLabQCenter.setModule(iTestContext.getAttribute("feature").toString());
             syscoLabQCenter.setFeature(iTestContext.getAttribute("feature").toString());
@@ -57,11 +58,11 @@ public class TestBase extends SyscoLabListener{
     }
 
     private void startBrowser() {
-//        if (Constants.RUN_LOCALLY) {
+        if (Constants.RUN_LOCALLY) {
             DriverSetUpUtil.setToRunLocally();
             Login.loadLoginPage(null, Constants.APP_URL);
-//        } else
-//            Login.loadLoginPage(DriverSetUpUtil.setToRunRemotely(), Constants.APP_URL);
+        } else
+            Login.loadLoginPage(DriverSetUpUtil.setToRunRemotely(Constants.APP_BROWSER), Constants.APP_URL);
     }
 
     @AfterTest
