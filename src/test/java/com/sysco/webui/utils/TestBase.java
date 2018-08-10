@@ -22,7 +22,7 @@ import java.util.Map;
 public class TestBase extends SyscoLabListener{
     private SyscoLabListener testListeners;
     private SyscoLabQCenter syscoLabQCenter;
-//    public static Map<String, String> dataMap;
+    public static Map<String, String> dataMap;
     protected SoftAssert softAssert;
 
     @BeforeClass
@@ -36,7 +36,7 @@ public class TestBase extends SyscoLabListener{
     @BeforeTest
     public void beforeTest() throws Exception {
         System.out.println("Test Running " + this.getClass().toString());
-//        dataMap = LoadDataProperties.loadDataProperties();
+        dataMap = LoadDataProperties.loadDataProperties();
     }
 
     @AfterClass(alwaysRun = true)

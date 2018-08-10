@@ -12,7 +12,7 @@ public class LoadDataProperties {
 
     // Read a properties file in Java
 
-   /* public static Map<String,String> loadDataProperties() throws Exception {
+    public static Map<String,String> loadDataProperties() throws Exception {
 
         Map<String,String> propertyMap = new HashMap();
         InputStream reader = new FileInputStream(System.getProperty("user.dir") +"\\src\\main\\resources\\config.properties");
@@ -28,6 +28,6 @@ public class LoadDataProperties {
         reader.close();
         return propertyMap;
 
-    }*/
+    }
 
 }
