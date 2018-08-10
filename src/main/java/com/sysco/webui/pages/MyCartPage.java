@@ -21,6 +21,7 @@ public class MyCartPage extends PageBase {
     private By radBtnCreditCart = By.xpath("(//label[contains(text(),'Credit Card')])[1]");
     private By txtCartEmpty = By.xpath("//p[@class='cart-empty']");
     private By lstCart = By.xpath("//ol/li//a[@title='Remove']");
+    private By btnCart = By.id("cartHeader");
 
     public String getPrice(){
         syscoLabUI.sleepInMiliSeconds(5000);
@@ -33,6 +34,7 @@ public class MyCartPage extends PageBase {
         for (WebElement element: cartElements) {
             syscoLabUI.click(element);
             syscoLabUI.clickOkInWindowsAlert();
+            clickOnCart();
         }
     }
 
@@ -72,5 +74,10 @@ public class MyCartPage extends PageBase {
     public void clickPaymentOption(){
         syscoLabUI.sleepInMiliSeconds(2000);
         syscoLabUI.click(radBtnCreditCart);
+    }
+
+    public void clickOnCart(){
+        syscoLabUI.sleepInMiliSeconds(2000);
+        syscoLabUI.click(btnCart);
     }
 }
