@@ -30,7 +30,9 @@ public class MyBundyAccount {
         myBundyAccountPage.clickCheckout();
     }
 
-
+    public static void gotoCart(){
+        myBundyAccountPage.clickOnCart();
+    }
 
 }
 

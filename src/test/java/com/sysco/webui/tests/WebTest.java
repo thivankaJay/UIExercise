@@ -17,8 +17,8 @@ public class WebTest extends TestBase {
 
     @BeforeClass
     public void init(ITestContext iTestContext) {
-        iTestContext.setAttribute("feature", "orders - rumCheckout");
-        iTestContext.setAttribute("module","Bundabergrum");
+        iTestContext.setAttribute("feature", "Bundabergrum - Checkout");
+//        iTestContext.setAttribute("module","Bundabergrum");
     }
 
     @Test
@@ -38,7 +38,9 @@ public class WebTest extends TestBase {
         softAssert.assertEquals(MyAccount.getFieldValidationText(),"This is a required field.");
         MyAccount.loginToSystem("williamjacob802@gmail.com","12345678");
         softAssert.assertTrue(MyBundyAccount.headingIsDisplayed());
-        /*softAssert.assertEquals(MyBundyAccount.getUserName(),"HELLO, WILLIAM JACOB!");
+        softAssert.assertEquals(MyBundyAccount.getUserName(),"HELLO, WILLIAM JACOB!");
+        MyBundyAccount.gotoCart();
+        MyCart.checkCartIsEmpty();
         MyBundyAccount.selectItem("Royal Liqueur - Mixed Pack 4");
         MyBundyAccount.checkout();
         softAssert.assertEquals(MyCart.getProductName(),"ROYAL LIQUEUR - MIXED PACK 4");
@@ -47,7 +49,7 @@ public class WebTest extends TestBase {
         softAssert.assertEquals(MyCart.getFnameValue(),"william");
         softAssert.assertEquals(MyCart.getLnameValue(),"jacob");
         MyCart.continueCheckout();
-        MyCart.clickPaymentOption();*/
+        MyCart.clickPaymentOption();
         softAssert.assertAll();
 
 

@@ -22,7 +22,7 @@ import java.util.Map;
 public class TestBase extends SyscoLabListener{
     private SyscoLabListener testListeners;
     private SyscoLabQCenter syscoLabQCenter;
-    public static Map<String, String> dataMap;
+//    public static Map<String, String> dataMap;
     protected SoftAssert softAssert;
 
     @BeforeClass
