@@ -16,7 +16,7 @@ import org.testng.asserts.SoftAssert;
 import java.io.IOException;
 import java.util.Map;
 
-import static org.openqa.selenium.remote.BrowserType.CHROME;
+
 
 @Listeners(SyscoLabListener.class)
 public class TestBase extends SyscoLabListener{
@@ -36,7 +36,7 @@ public class TestBase extends SyscoLabListener{
     @BeforeTest
     public void beforeTest() throws Exception {
         System.out.println("Test Running " + this.getClass().toString());
-        dataMap = LoadDataProperties.loadDataProperties();
+//        dataMap = LoadDataProperties.loadDataProperties();
     }
 
     @AfterClass(alwaysRun = true)
