@@ -14,7 +14,8 @@ public class StartPage extends PageBase {
 
 
     public void selectYear(String year) {
-        syscoLabUI.sleepInMiliSeconds(2000);
+        syscoLabUI.refreshBrowser();
+        syscoLabUI.sleepInMiliSeconds(5000);
         syscoLabUI.selectFromDropDown(drpDwnYear, year);
     }
 
